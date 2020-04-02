@@ -8,6 +8,8 @@
             "includePath": [
                 "/home/renato/Documents/Projects/Bruno/MedidorTanque/include",
                 "/home/renato/Documents/Projects/Bruno/MedidorTanque/src",
+                "/home/renato/Documents/Projects/Bruno/MedidorTanque/.pio/libdeps/nodemcu-32s/LiquidCrystal_I2C_ID576",
+                "/home/renato/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                 "/home/renato/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config",
                 "/home/renato/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_trace",
                 "/home/renato/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_update",
@@ -91,7 +93,6 @@
                 "/home/renato/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
                 "/home/renato/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "/home/renato/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
-                "/home/renato/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                 "/home/renato/.platformio/packages/tool-unity",
                 ""
             ],
@@ -100,6 +101,8 @@
                 "path": [
                     "/home/renato/Documents/Projects/Bruno/MedidorTanque/include",
                     "/home/renato/Documents/Projects/Bruno/MedidorTanque/src",
+                    "/home/renato/Documents/Projects/Bruno/MedidorTanque/.pio/libdeps/nodemcu-32s/LiquidCrystal_I2C_ID576",
+                    "/home/renato/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                     "/home/renato/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config",
                     "/home/renato/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_trace",
                     "/home/renato/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_update",
@@ -183,7 +186,6 @@
                     "/home/renato/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
                     "/home/renato/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "/home/renato/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
-                    "/home/renato/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                     "/home/renato/.platformio/packages/tool-unity",
                     ""
                 ]
@@ -205,7 +207,7 @@
             "intelliSenseMode": "clang-x64",
             "cStandard": "c99",
             "cppStandard": "c++11",
-            "compilerPath": "/home/renato/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc",
+            "compilerPath": "/home/renato/.platformio/packages/toolchain-xtensa32@2.50200.80/bin/xtensa-esp32-elf-gcc",
             "compilerArgs": [
                 "-mlongcalls",
                 ""
