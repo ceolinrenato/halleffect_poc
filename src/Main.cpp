@@ -34,8 +34,8 @@ void setup(){
   lcd.setCursor(14, 1);
   lcd.print("L");
   lcd.setCursor(0,1);
-  pinMode(FUEL_IN_PIN, INPUT_PULLUP);
-  pinMode(FUEL_OUT_PIN, INPUT_PULLUP);
+  pinMode(FUEL_IN_PIN, INPUT);
+  pinMode(FUEL_OUT_PIN, INPUT);
   attachInterrupt(digitalPinToInterrupt(FUEL_IN_PIN), handleFuelIn, RISING);
   attachInterrupt(digitalPinToInterrupt(FUEL_OUT_PIN), handleFuelOut, RISING);
 }
