@@ -13,7 +13,7 @@ This project is a proof of concept of a bigger project that I've don't yet wethe
 
  ## Assembled Project
 
- ![Assembled Project image](/docs/assembled.jpg)
+ ![Assembled Project image](/docs/assembled.jpeg)
 
 ### Changelog
 
