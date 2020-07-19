@@ -30,7 +30,7 @@ void setup(){
   lcd.init();
   lcd.backlight();
   lcd.setCursor(0, 0);
-  lcd.print("Total Consumido");
+  lcd.print("Total Consumed");
   lcd.setCursor(14, 1);
   lcd.print("L");
   lcd.setCursor(0,1);
